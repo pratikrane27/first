@@ -1,0 +1,44 @@
+1.
+x = 1;
+while (x < 6):
+     print(x)
+     x += 1
+------------------------------
+2.
+for i in range(10,0,-1):
+    print(i)
+------------------------------
+3.
+a=int(input("Enter first number : "))
+b=int(input("Enter a second number : "))
+print("sum of two numbers is ",a+b)
+------------------------------
+7.
+lst=[]
+for i in range(2000,3201):
+    if i%7==0 and i%5!=5:
+        lst.append(i)
+print(lst)
+------------------------------
+8.
+for i in range(5):
+    for j in range(0,5-i):
+        print('*',end=' ')
+    print()
+------------------------------
+9th
+#A]
+file = open(“sagar.txt”,”w”) 
+ 
+file.write(“Hello World”) 
+
+file.close() 
+
+#B]
+file = open(“sagar.text”, “r”) 
+print file.read() 
+------------------------------
+10th
+String=input("Enter a string : ")
+reverse=String[::-1]
+print('Reverse of the string is : ',String[::-1])
