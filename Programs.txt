@@ -42,3 +42,8 @@ print file.read()
 String=input("Enter a string : ")
 reverse=String[::-1]
 print('Reverse of the string is : ',String[::-1])
+
+
+
+
+Akshay Pratik
